@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="custom.css">
+    <title>Wikipedia Search App</title>
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="justify-content-center" id="content">
+        <div class="text-center mt-5">
+          <h1>Wikipedia Viewer</h1>
+          <h2>Intermediate Front End Development Project</h2>
+          <br>
+          <br>
+          <a href="https://en.wikipedia.org/wiki/Special:Random" target="_blank">click to get random Article</a>
+          <br>
+          <br>
+          <form onsubmit="event.preventDefault();">
+            <input type="search" placeholder="Search..." id="myInput">
+            <button><i class="fa fa-search" aria-hidden="true"></i></button>
+          </form>
+          <div class="container" id="ck">
+            <div class="list-group my-5" id="myList">
+            </div>
+          </div>
+        </div>
+      </div>
+      <footer class="footer">
+        <div class="container">
+          <span class="text-muted">Design and built By <strong><a href="abbas-000.github.io" target="_blank">Ali Abbas</strong></span>
+        </div>
+      </footer>
+      <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js">
+
+      </script>
+      <script type="text/javascript" src="script.js">
+
+      </script>
+    </div>
+  </body>
+</html>

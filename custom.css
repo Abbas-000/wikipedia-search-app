@@ -1,0 +1,25 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background: black;
+}
+
+#content {
+  color: white;
+}
+a[href] {
+  color: lightBlue;
+}
+
+input[type="search"] {
+  border-radius: 10px;
+}
+input[type="search"]:focus {
+  background-color: lightYellow;
+}
+button {
+  background-color: red;
+  cursor: pointer;
+  border-radius: 50%;
+}
