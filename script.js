@@ -33,9 +33,8 @@ $(document).ready(function() {
           $("#myList").empty();
         }
 
-        for (var i = 0; i <= dataList.length; i++) {
+        for (var i = 0; i < dataList.length; i++) {
           var baseUrl = "https://en.wikipedia.org/?curid=" + dataList[i].pageid;
-          console.log(baseUrl);
           var title = dataList[i].title;
           var snippet = dataList[i].snippet;
           //creating elements
